@@ -62,3 +62,13 @@ a{
 #badge-btn{
     padding: 5px;
 }
+#pHeader{
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+}
