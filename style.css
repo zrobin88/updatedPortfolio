@@ -60,7 +60,8 @@ a{
 }
 
 #badge-btn{
-    padding: 5px;
+    padding: 20px;
+    border-radius: 15px;
 }
 #pHeader{
     border-radius: 25px;
@@ -91,4 +92,18 @@ a{
 }
 .poppins{
     font-family: 'Poppins', sans-serif;
+}
+
+#intro{
+    border-radius:55px;
+    
+}
+#profile-pic{
+    height:25%;
+}
+#contact-form{
+    border-radius: 25%;
+}
+#qc{
+    border-radius: 15%;
 }
