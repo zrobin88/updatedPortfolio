@@ -23,11 +23,58 @@ a{
 
 }
 
+
+ #myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  } 
+  .content {
+    position: fixed;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 0.1); */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  } 
+  .p-content {
+    position: fixed;
+    bottom: 30%;
+    left: 16%;
+    /* background: rgba(0, 0, 0, 0.1); */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(rgba(255, 252, 252, 0.5), rgba(20, 123, 179, 0.7));
+}
+
+/* #arrow{
+    background-color:black
+} */
+
+.list-group-item{
+    opacity:0.8;
+}
+/* #footer{
+    height:15%;
+} */
+
+.introTron{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
 /*Nav Bar Section*/
 .navbar{
 
     height: 100px;
     padding: 4%;
+}
+.p-box{
+    position: relative;
+    bottom:30%;
 }
 
 .navbar-brand{
@@ -88,7 +135,8 @@ a{
 
 .jumbotron{
     width: 55%;
-    background-image: linear-gradient(#232629, #2a7598);
+
+    background: linear-gradient(rgba(255, 252, 252, 0.5), rgba(20, 123, 179, 0.7));
 }
 .poppins{
     font-family: 'Poppins', sans-serif;
@@ -105,5 +153,5 @@ a{
     border-radius: 25%;
 }
 #qc{
-    border-radius: 15%;
+    border-radius: 35%;
 }
