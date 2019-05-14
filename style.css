@@ -162,11 +162,11 @@ a{
         background-color: #9ea0a0;
     }
     #myVideo {
-        height:30%;
+        height:0%;
     }
 
    .jumbotron{
-    width: 104%;
+    width: 109%;
     height: 685px;
     position: relative;
     top: 180px;
