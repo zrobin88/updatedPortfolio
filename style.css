@@ -107,6 +107,8 @@ a{
 }
 
 #badge-btn{
+    position: relative;
+    right: -55px;
     padding: 20px;
     border-radius: 15px;
 }
